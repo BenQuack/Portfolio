@@ -7,7 +7,7 @@ body{
     flex-direction: column;
     align-items: center;
     border: 2px blue solid;
-    width: 95vw;
+    width: 100vw;
 }
 
 .areas > .header{
@@ -15,7 +15,6 @@ body{
     align-items: center;
     display: flex;
     flex-direction: inherit;
-    width: 95vw;
     height: 50vh;
     border: 2px red solid;
 }
@@ -31,13 +30,13 @@ body{
     position: relative;
     white-space: nowrap;
     overflow: hidden;
-    font-size: 4rem;
-    height: 10rem;
-    width: 120rem;
+    height: 10vh;
+    width: 40vw;
     border: 2px orange solid;
 }
 
 .scrollarea > p{
+    font-size: 50%;
     position: absolute;
     animation: scroll-left 30s linear infinite;
 }
