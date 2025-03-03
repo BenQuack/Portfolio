@@ -7,6 +7,7 @@ body{
     flex-direction: column;
     align-items: center;
     border: 2px blue solid;
+    width: 95vw;
 }
 
 .areas > .header{
@@ -14,7 +15,7 @@ body{
     align-items: center;
     display: flex;
     flex-direction: inherit;
-    width: 100vw;
+    width: 95vw;
     height: 50vh;
     border: 2px red solid;
 }
@@ -60,8 +61,8 @@ body{
 
 .links > a > img{
     position: sticky;
-    height: 15rem;
-    width: 15rem;
+    height: 5vh;
+    width: 5vh;
     border: 2px red solid;
 }
 
