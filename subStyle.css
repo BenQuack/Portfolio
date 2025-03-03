@@ -1,0 +1,30 @@
+header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.5vh;
+    height: 50vh;
+    width: 100vw;
+}
+
+header > a{
+    border: 2px red solid;
+    height: 15rem
+}
+
+header > a > img{
+    height: 15rem;
+    width: 15rem;
+    border: 2px blue solid;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
