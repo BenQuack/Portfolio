@@ -83,7 +83,7 @@ body{
     width: 100vw;
 }
 
-.projects > div > a:link, a:visited{
+.projects > div > a{
     display: inherit;
     text-align: center;
     align-items: center;
@@ -93,6 +93,8 @@ body{
     border-radius: 20%;
     
 }
+
+
 
 .projects > div > a >img{
     height: 25vh;
