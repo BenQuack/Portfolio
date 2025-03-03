@@ -1,0 +1,109 @@
+body{
+    font-size: 2.5vw;
+}
+
+.areas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px blue solid;
+}
+
+.areas > .header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: inherit;
+    width: 100vw;
+    height: 50vh;
+    border: 2px red solid;
+}
+
+.header > h1{
+    width: auto;
+    height: auto;
+    border: 2px red solid;
+
+}
+
+.header > .scrollarea{
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 4rem;
+    height: 10rem;
+    width: 120rem;
+    border: 2px orange solid;
+}
+
+.scrollarea > p{
+    position: absolute;
+    animation: scroll-left 30s linear infinite;
+}
+
+@keyframes scroll-left {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+        
+    }
+}
+
+.links{
+    display: flex;
+    align-items: flex-start;
+    width: 100vw;
+    height: 1vh;
+}
+
+.links > a > img{
+    position: sticky;
+    height: 15rem;
+    width: 15rem;
+    border: 2px red solid;
+}
+
+.areas > .projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150vh;
+    width: 100vw;
+    border: 2px green solid;
+}
+
+.projects > div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    height: 50vh;
+    width: 100vw;
+    border: 2px green solid;
+}
+
+.projects > div > a:link, a:visited{
+    display: inherit;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;  
+    height: 25vh;
+    width: 25vh;
+    border: 2px lightblue solid;
+    border-radius: 20%;
+}
+
+.projects > .new{
+    height: 50vh;
+}
+
+.projects > .old{
+    height: 100vh;
+}
+
+
+
+
+
