@@ -6,6 +6,7 @@ header{
     font-size: 3rem;
     height: 50vh;
     width: 100%;
+    border-radius: 10%;
 }
 
 header > h1{
@@ -13,30 +14,36 @@ header > h1{
     width: 100%;
 }
 
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 5vh;
+}
+
+.links > a > img{
+    height: 5vh;
+    width: 5vh;
+}
+
 header > h1, header > a {
     margin: 0;
     padding: 0;
 }
 
-header > a{
-    height: 5vh;
-}
-
-header > a > img{
-    height: 5vh;
-    width: 5vh;
-}
-
 body{
+    background-color: #C9B79C;
+    color: #342A21;
     font-size: 2rem;
-}
+    font-family: 'Courier New', Courier, monospace;
+    }
 
 .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: start;
-    border: 2px blue solid;
 }
 
 .skills,.description{
@@ -45,16 +52,25 @@ body{
     justify-content: center;
     align-items: center;
     margin: 5%;
+    box-shadow: 10px 10px 3px #8b8272;
+    background: #71816D;
+    border: 5px #342A21 solid;
+    border-radius: 10%;
 }
 
 .container > .skills{
     width: 25%;
-    border: 2px red solid;
+}
+
+.description > span{
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .container > .description{
     width: 50%;
-    border: 2px red solid;
+    height: 110%;
 }
 
 
