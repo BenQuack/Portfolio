@@ -74,4 +74,26 @@ body{
 }
 
 
+@media (max-width: 600px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container > .description{
+        width: 100%;
+    }
+
+    .description > h2{
+        position: relative;
+        left: 20%;
+    }
+
+    .container > .skills{
+        width: 100%;
+    }   
+}
+
 

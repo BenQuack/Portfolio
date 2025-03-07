@@ -124,14 +124,28 @@ body{
         font-size: 1.5rem;
     }
 
+    .header > h1{
+        padding: 5vh;
+    }
+
+    .areas{
+        gap: 10vh;
+    }
+
     .areas > .header {
         font-size: 120%;
         height: 40vh;
     }
 
     .header > .scrollarea {
+        margin-bottom: 10vh;
         width: 70%;
         height: 8vh;
+    }
+
+    .projects{
+        gap: 10vh;
+        height: 250vh;
     }
 
     .projects > div {
